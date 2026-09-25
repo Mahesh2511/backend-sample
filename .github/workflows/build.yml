@@ -1,0 +1,16 @@
+# Consumer workflow: the shared template with the backend declaration.
+# All validation and build logic lives in the shared framework.
+name: Build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: Mahesh2511/devsecops-shared-github-actions/.github/workflows/build.yml@v1
+    with:
+      artifact_type: backend
