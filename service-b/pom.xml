@@ -11,6 +11,6 @@
   </parent>
 
   <!-- Must match every other pom.xml for the artifact_consistency check. -->
-  <artifactId>another-service</artifactId>
+  <artifactId>sample-service</artifactId>
   <name>service-b</name>
 </project>
