@@ -8,7 +8,7 @@
     <groupId>com.example</groupId>
     <artifactId>sample-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-  </parent>
+
 
   <!-- Must match every other pom.xml for the artifact_consistency check. -->
   <artifactId>sample-service</artifactId>
